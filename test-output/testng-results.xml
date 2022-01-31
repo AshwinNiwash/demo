@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38192" started-at="2022-01-27T05:36:37Z" finished-at="2022-01-27T05:37:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38192" started-at="2022-01-27T05:36:37Z" finished-at="2022-01-27T05:37:15Z">
+      <class name="org.demo.TestCase1">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:org.demo.TestCase1@57baeedf]" name="launchBrowser" is-config="true" duration-ms="2390" started-at="2022-01-27T05:36:37Z" finished-at="2022-01-27T05:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="url()[pri:0, instance:org.demo.TestCase1@57baeedf]" name="url" is-config="true" duration-ms="3041" started-at="2022-01-27T05:36:39Z" finished-at="2022-01-27T05:36:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:org.demo.TestCase1@57baeedf]" name="tc1" duration-ms="2271" started-at="2022-01-27T05:36:43Z" data-provider="LoginData" finished-at="2022-01-27T05:36:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[greens]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[greens@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="url()[pri:0, instance:org.demo.TestCase1@57baeedf]" name="url" is-config="true" duration-ms="4802" started-at="2022-01-27T05:36:45Z" finished-at="2022-01-27T05:36:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:org.demo.TestCase1@57baeedf]" name="tc1" duration-ms="2213" started-at="2022-01-27T05:36:50Z" data-provider="LoginData" finished-at="2022-01-27T05:36:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sql]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sql@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="url()[pri:0, instance:org.demo.TestCase1@57baeedf]" name="url" is-config="true" duration-ms="2264" started-at="2022-01-27T05:36:52Z" finished-at="2022-01-27T05:36:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:org.demo.TestCase1@57baeedf]" name="tc1" duration-ms="2220" started-at="2022-01-27T05:36:54Z" data-provider="LoginData" finished-at="2022-01-27T05:36:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[java@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="url()[pri:0, instance:org.demo.TestCase1@57baeedf]" name="url" is-config="true" duration-ms="15923" started-at="2022-01-27T05:36:56Z" finished-at="2022-01-27T05:37:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String)[pri:0, instance:org.demo.TestCase1@57baeedf]" name="tc1" duration-ms="2239" started-at="2022-01-27T05:37:12Z" data-provider="LoginData" finished-at="2022-01-27T05:37:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[python]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[python@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="quitbr()[pri:0, instance:org.demo.TestCase1@57baeedf]" name="quitbr" is-config="true" duration-ms="784" started-at="2022-01-27T05:37:14Z" finished-at="2022-01-27T05:37:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbr -->
+      </class> <!-- org.demo.TestCase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
